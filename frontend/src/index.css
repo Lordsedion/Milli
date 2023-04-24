@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,300;0,400;0,500;1,500&family=Open+Sans&display=swap');
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: BinancePlex,Arial,sans-serif!important;    text-decoration: none;
+}
+:root {
+    --color-bg: rgb(20, 19, 36);
+    --color-bg-var: #F1DAC4;
+    --color-primary: #225dfd;
+    --color-primary-var: #232223eb;
+    --color-primary-var-2: ;
+    --color-white: #fff;
+    --color-light: ;
+    --color-dark: #373636;
+    --container-width-lg: 92%;
+    --container-width-md: 93%;
+    --container-width-ms: 92%;
+
+    --transition: all 0.3s ease;
+}
+
+body {
+    font-family: 'Jost', sans-serif;
+    background: var(--color-bg);
+    /* background-image: url('../src/images/bg-texture.png'); */
+    color: rgb(206, 200, 200);
+    line-height: 1.7;
+    overflow-x: hidden;
+}
+/* a:visited {
+    color: yellow;
+} */
+
+.container {
+    width: var(--container-width-lg);
+    margin: 0 auto;
+}
+a {
+    color: rgb(206, 200, 200);
+    transition: var(--transition);
+    width: max-content;
+}
+.white{
+    color: #fff !important;
+}
+h1 {
+    font-size: 1.7rem;
+}
+
+h2 {
+    font-size: 1.3rem;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 7px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #807f7f;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #252525;
+    border-radius: 0.2rem;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #191818;
+  }
+
+/* ====================Media queries medium devices=========================== */
+@media screen and (max-width: 1024px) {
+    .container {
+        width: var(--container-width-md);
+    }
+    h1 {
+        font-size: 1.5rem;
+    }
+}
+/* ==========================Media queries small devices====================== */
+@media screen and (max-width: 600px) {
+    .container {
+        width: var(--container-width-ms);
+    }
+    h1 {
+        font-size: 2rem;
+    }
+    h2 {
+        font-size: 1.4rem;
+    }
+}
+
+/* ==========================Media queries small devices====================== */
+@media screen and (max-width: 500px) {
+    h1 {
+        font-size: 1.7rem;
+    }
+}
+

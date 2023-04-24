@@ -1,0 +1,220 @@
+.flex-cd {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin-left: 1%;
+    overflow: hidden;
+    max-width: 99%;
+}
+
+header {
+    padding: 0.5rem 0;
+    width: 100%;
+    background-color: rgb(18, 19, 23);
+    vertical-align: middle;
+    box-shadow: 1px 1px 3px rgba(3, 3, 102, 0.833);
+}
+
+.flex-cd div {
+    margin: 0 1rem;
+}
+.header-n-bar {
+    overflow: hidden;
+}
+
+.fll {
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex-rd {
+    display: flex;
+}
+
+.flex-rd div {
+    margin: 0 0.3rem;
+}
+
+.h-title a {
+    color: blue;
+}
+.flex-rd a {
+    margin: 0px 10px;
+    padding: 0.3rem 1rem;
+    text-decoration: none;
+    /* font-weight: 600; */
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: all 0.1s ease-out;
+}
+
+.h-title {
+    color: yellow;
+    text-decoration: none;
+    font-weight: 600;
+    display: flex;
+}
+
+.header-n-bar img {
+    height: 2.5rem;
+    /* margin-right: 0.4rem; */
+}
+
+.fll a:hover {
+    color: yellow;
+}
+
+.fa-33  {
+    font-size: 1.5rem;
+    display: none;
+    margin-right: 1rem;
+}
+.fa-32  {
+    font-size: 1.5rem;
+    }
+.fa-31  {
+    font-size: 1.3rem;
+    margin-right: 0.1rem;
+    }
+.fa-30  {
+    text-align: right;
+    width: 95%;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #acacac;
+    }
+
+.fa-29 {
+    float: right;
+    color: yellow;
+    font-size: 1.5rem;
+}
+.loggedui {
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
+    display: none;
+    margin-left: 3rem !important;
+}
+
+.loggedui:hover {
+    color: yellow;
+}
+.flex-rd a:hover {
+    transform: scale(1.05);
+}
+
+.relog a{
+    margin: 0px 10px;
+    padding: 0.2rem 1rem;
+    text-decoration: none;
+    /* font-weight: 600; */
+    cursor: pointer;
+    transition: all 0.1s ease-out;
+    background: rgb(204, 204, 7);
+    border-radius: 0.2rem;
+    color: rgb(66, 61, 61);
+}
+.relog a:hover {
+    background: rgb(236, 255, 22);
+}
+
+.relog {
+    display: flex;
+}
+
+.dp-flex {
+    display: flex;
+}
+.side-nav {
+    display: none;
+    top: 0;
+    bottom: 0;
+    position: fixed;
+    backdrop-filter: blur(10px);
+    background: rgb(16, 18, 30);
+    padding: 0.3rem 0.5rem;
+    padding-top: 2rem;
+    width: 40%;
+    overflow-y: auto;
+    height: 100%;
+    z-index: 999;
+    flex-direction: column;
+}
+.side-nav a {
+    padding: 0.5rem;
+    font-family: BinancePlex,Arial,sans-serif!important;
+    font-weight: 500;
+    color: rgb(255, 255, 75);
+    margin: 0.2rem 0;
+    text-decoration: none;
+    border-bottom: 1px solid rgb(49, 49, 49);
+    z-index: 99;
+    width: 100%;
+}
+.header-n-bar h2 {
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+.reg-class1 {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom : 1rem;
+}
+.reg-class1 a {
+    text-align: center;
+    background: yellow;
+    border-radius: 0.2rem;
+    color: black;
+    width: 80%;font-family: Arial;
+    font-style: oblique;
+}
+
+.fk {
+    color: yellow;
+    padding: 0.5rem 0rem 0.5rem 0.5rem;
+}
+
+.wlc-sd {
+    background: rgb(230, 230, 15);
+    padding: 0.5rem 1rem;
+    border-radius: 0.2rem;
+    margin-bottom: 1rem;
+    color: #212020;
+}
+
+.fr-logged-in {
+    display: flex;
+    flex-direction: column;
+    z-index: 9;
+}
+
+/* ====================Media queries medium devices=========================== */
+@media screen and (min-width: 1025px) {
+    .side-nav {display: none !important;}
+}
+@media screen and (max-width: 1024px) {
+    .flex-rd, .loggedui, .relog {display: none !important;}
+    .fa-33 {display: block;}
+}
+@media screen and (max-width: 768px) {
+    .side-nav {
+        width: 40%;
+    }
+}
+@media screen and (max-width: 600px) {
+    .side-nav {
+        width: 60%;
+    }
+}
+@media screen and (max-width: 420px) {
+    .side-nav {
+        width: 70%;
+    }
+}
+@media screen and (max-width: 360px) {
+    .side-nav {
+        width: 99%;
+    }
+}

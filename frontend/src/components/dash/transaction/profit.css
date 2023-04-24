@@ -1,0 +1,50 @@
+.profit-p-ctn {
+    margin: 0.6rem 1rem 0.6rem 2rem;
+    width: 74%;
+}
+.profit-p-ctn h1 {margin-bottom: 1rem;}
+
+.roi-table table {
+    border-collapse: collapse;
+  width: 100%;
+  /* background-color: rgb(249, 249, 249); */
+}
+.red {
+  color: rgb(255, 28, 28);
+}
+.roi-table p {
+  text-align: center;
+  font-size: 1rem;
+  width: 100%;
+  margin: 0.4rem auto;
+}
+td, th {
+    border: 1px solid #4d4c4c6c;
+    text-align: left;
+    padding: 8px;
+  }
+.green {
+  color: rgb(82, 239, 29);
+}
+.gold {
+  color: yellow;
+  cursor: pointer;
+}
+.tableDate {
+  font-size: 0.8rem;
+}
+
+  th {color: rgb(18, 249, 255);}
+.roi-table table tr:nth-child(even) {
+    background-color: #6a656560;
+  }
+
+  @media screen and (max-width:910px) {
+    .profit-p-ctn {
+      width: 96%;
+      margin: 0.7rem auto;
+    }
+    .w-type{
+      display: none;
+    }
+  }

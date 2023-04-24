@@ -1,0 +1,132 @@
+.plan-cc {
+    margin: 1.6rem;
+}
+.plan-cc a {
+    margin-top: 1rem;
+    display: block;
+    margin-left: 1rem;
+}
+
+.plan-cc h1 {
+    width: 96%;
+    margin: 0 2%;
+}
+.plan-cc > p {
+    width: 96%;
+    margin: 0 2%;
+}
+.reward-div {
+    margin-bottom: 1rem;
+    display: grid;
+    /* flex-wrap: wrap; */
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.rr-cc {
+    padding: 1rem 2rem;
+    margin: 0.7rem 1rem;
+    background: rgb(44, 44, 44);
+    border-radius: 0.3rem;
+    cursor: pointer;
+}
+.rr-cc:hover {
+    background: rgb(17, 15, 15);
+    border: 2px solid yellow;
+}
+.rr-cc:hover .styl-crcy {
+    background: yellow;
+    color: black;
+}
+.rr--ff-flx {
+    display: flex;
+    justify-content: space-between;
+}
+.styl-crcy {
+    background-color: rgb(17, 15, 15);
+    padding: 0.4rem;
+    font-size: 1.8rem;
+    border-radius: 50%;
+}
+.apr- {
+    color: #fff;
+    font-weight: 600;
+}
+.apr-big {
+    color: rgb(78, 246, 22);
+    font-size: 1.4rem;
+}
+
+.flx-nd-hp-fq {
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-around;
+}
+.flx-hp-fq {
+    padding: 1.6rem;
+    background: rgb(40, 38, 38);
+    margin: 0.6rem 1rem;
+}
+.flx-hp-fq h3 {
+    margin: 0.5rem;
+}
+.flx-hp-fq a {
+    color: yellow;
+}
+
+.flx-hp-fq:hover {
+    background: rgb(19, 19, 19);
+    color: #fff;
+    box-shadow: 1px 1px 3px rgb(25, 24, 24);
+}
+.flx-hp-fq p {
+    font-size: 0.8rem;
+}
+.new-d-faq {
+    margin: 1.8rem 0.1rem;
+}
+.white{
+    color: #fff;
+}
+.er-td {
+    background: rgb(17, 15, 15);
+    text-align: center;
+    margin-top: 2rem;
+    padding: 1.8rem 0;
+}
+.er-td a {
+    margin: 0 auto;
+    display: block;
+    margin-top: 0.6rem;
+    color: #232323;
+}
+
+@media screen and (max-width: 1024px) {
+    .reward-div {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .reward-div {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .plan-cc {
+        margin: 1rem 0.1rem;
+    }
+    .rr-cc {
+        padding: 1rem 1.8rem;
+        margin: 0.7rem 0.1rem;
+    }
+    .styl-crcy {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .flx-nd-hp-fq {
+        flex-wrap: wrap;
+    }
+}
+

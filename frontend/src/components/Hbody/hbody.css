@@ -1,0 +1,93 @@
+.header-v {
+    background-image: url('../../images/bg4.jpg');
+}.hvb-g {
+    margin:  0;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.hvb-g img {width: 90%;}
+.hvb-g h1 {
+    font-size: 3rem;
+    font-weight: 400;
+    line-height: 3.5rem;
+    color: rgb(223, 222, 219);
+    margin-bottom: 2rem;
+}
+
+.pdp-1 {
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin: 0.5rem 0;
+}
+.pdp-1 a:hover {
+    color: yellow;
+}
+.sc-fr {
+    word-break:keep-all;
+}
+.sc-fr button {
+    padding: 0.76rem 0.5rem;
+    margin: 1rem 0;
+    border-radius: 0.1rem;
+    width: 100%;
+    text-align: center;
+    background: yellow;
+}
+
+.sassa {
+    margin-top: -13%;
+    width: 90%;
+    margin-left: 5%;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+}
+.sassa-pk {
+    background-color: rgba(35, 37, 38, 0.592);
+    margin: 1rem;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 0.4rem;
+}
+.sassa-pk h1 {
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+/* ====================Media queries medium devices=========================== */
+@media screen and (max-width: 1024px) {
+    .hvb-g img {display: none;}
+    .sc-fr {margin-top: 3rem;}
+    .sassa {
+        margin-top: 0%;
+        display: flex;
+        width: 100%;
+        margin-left: 0;
+    }
+    .sassa-pk {
+        /* margin: 0; */
+    }
+}
+@media screen and (max-width: 768px) {
+    .sassa {
+        flex-direction: column;
+        width: 99%;
+        margin-left: 1%;
+        
+    }  
+    .sassa-pk {
+        /* margin: 0.4rem 0; */
+        padding: 1.7rem 0.5rem;
+    }  .hvb-g h1 {
+        font-size: 2.3rem;
+    }
+}
+@media screen and (max-width: 420px) {
+    .sassa {
+        width: 100%;
+        margin-left: 0%;
+    } 
+   
+}

@@ -1,0 +1,171 @@
+.profit-p-ctn {
+    margin: 0.6rem 1rem 0.6rem 2rem;
+    width: 74%;
+}
+.profit-p-ctn h1 {margin-bottom: 1rem;}
+
+.p-sn-we-flx-obj {
+  background: #0a0a0a55;
+  padding: 1rem 1rem;
+  border-radius: 0.2rem;
+  width: 90%;
+}
+.p-sn-we-flx-obj h2 {
+  margin-left: 1rem;
+  margin-bottom: 1.5rem;
+}
+.bg-prrce {text-align: center;}
+.bg-prrce span {
+  font-size: 2.4rem;
+}
+.flx-un-nu-xlf {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0.8rem 0;
+  border-radius: 0.3rem;
+  padding: 0.5rem;
+  background: #5e5e5e3d;
+}
+.modal-p-c {
+  width: 100vw;
+  /* margin-left: 25vw; */
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  backdrop-filter: blur(3px);
+  background-color: rgba(44, 45, 45, 0.221);
+}
+.mnnn-d-s0 {
+  background: #333333;
+  margin: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.7rem 0.5rem;
+  border-radius: 0.3rem;
+}
+.l-fourier {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1rem;
+}
+.l-fourier input {
+  background-color: #5e5d5d93;
+  color: #fff;
+  font-weight: 700;
+  padding: 0.5rem 1rem;
+}
+
+.by-buy {
+  background: yellow;
+  color: #000;
+  font-weight: 700;
+  padding: 0.6rem 0.9rem;
+  margin: 2rem 40% 1rem 40%;
+  width: 20%;
+  border-radius: 0.2rem;
+}
+.giddyBa {
+  display: block;
+  margin-left: auto;
+  width: 70%;
+  z-index: 188;
+  margin-top: 7%;
+  background: rgb(17, 16, 16);
+  margin-right: auto;
+  padding: 1rem;
+}
+.plan-Na {
+  display: flex;
+  justify-content: space-between;
+}
+.plan-Na p {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+.plan-Na span {
+  cursor: pointer;
+  font-size: 1.3rem;
+}
+.plan-Na span:hover {
+  color: rgb(226, 22, 22);
+}
+
+.mode-dark {
+  background: #100f0fd5;
+  backdrop-filter: blur(10px);
+  width: 100vw;
+  position: absolute;
+  margin-left: 0;
+  margin-top: 0;
+  top: 0;
+  left: 0;
+}
+
+.none {display: none}
+.jd-p {
+  padding: 0.5rem 1.3rem;
+  color: #090909;
+  margin: 0.7rem auto;
+  background-color: rgb(255, 255, 34);
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 1.2rem;
+  margin-left: 27.5%;
+  border-radius: 0.2rem;
+  width: 45%;
+}
+
+.plan-section-nnwe {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 2.5rem 0;
+  gap: 1rem;
+}
+
+.flx-un-nu-xlf p {
+  margin: 0 0.4rem;
+}
+
+
+
+  @media screen and (max-width:910px) {
+    .profit-p-ctn {
+      width: 96%;
+      margin: 0.7rem auto;
+    }
+  }
+
+@media screen and (max-width: 768px) {
+  .p-sn-we-flx-obj {
+    width: 100%;
+  }
+  .giddyBa {
+    width: 89%;
+  }
+  .l-fourier {
+    flex-direction: column;
+    width: 87%;
+    margin-top: 2rem;
+    margin-left: 2.5%;
+  }
+  .by-buy {
+    width: 50%;
+    margin-left: 25%;
+    font-size: 1.1rem;
+  }
+}
+@media screen and (max-width: 525px) {
+  .plan-section-nnwe {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .p-sn-we-flx-obj {
+    width: 98%;
+    margin-left: 1%;
+    padding: 1rem 0.5rem;
+    margin-right: 1%;
+  }
+}

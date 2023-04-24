@@ -1,0 +1,84 @@
+.dsp-none {display: none;}
+
+.reg-opn-ctn {
+    width: 35%;
+    margin: 3rem 40% 2rem 18%;
+    padding: 0 1rem;
+}
+
+.reg-opn-ctn h1 {
+    margin: 1rem 0 1.7rem 0;
+}
+.reg-flx {
+    display: flex;
+    flex-direction: column;
+}
+.reg-flx input {
+    background-color: rgb(19, 18, 18);
+    color: #fff;
+    border: 1px solid rgba(163, 162, 159, 0.454);
+    padding: 0.7rem;
+    border-radius: 0.3rem;
+    margin-bottom: 1rem;
+}
+.reg-flx label {
+    font-size: 0.7rem;
+}
+
+#password-l {
+    width: 100%;
+}
+#ref-id {
+    width: 70%;
+}
+.kl-u-gd {
+    position: relative;
+    z-index: 0;
+}
+.sh-pr {
+    position: absolute;
+    top: 15%;
+    right: 4%;
+    font-size: 1.45rem;
+    color: rgb(200, 195, 195);
+}
+.reg-min-flex {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: left;
+    margin: 0.5rem 0;
+}
+.reg-min-flex label {
+    margin-left: 0.5rem;
+}
+.reg-min-flex label a {
+    color: yellow;
+}
+#sub-reg-btn {
+    background: yellow;
+    color: rgb(26, 24, 24);
+    font-weight: 600;
+    cursor: pointer;
+}
+#sub-reg-btn:hover {
+    background-color: rgb(226, 226, 5);
+}
+
+
+@media screen and (max-width: 990px) {
+    .reg-opn-ctn {
+        width: 47%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .reg-opn-ctn {
+        width: 67%;
+    }
+}
+@media screen and (max-width: 530px) {
+    .reg-opn-ctn {
+        width: 96%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

@@ -1,0 +1,46 @@
+.plan2 {
+    padding: 1rem 1.4rem;
+}
+.plan2 h1 {
+    color: #fff;
+}
+.flx-pl2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+}
+.flx-pl2 h2 {
+    color: #fff;
+}
+.flx-pl2-cnt {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    height: 100%;
+    width: 100%;
+    justify-content: space-between;
+    background: rgb(0, 0, 0);
+}
+.flx-chh-rr {
+    margin-top: 1.5rem;
+}
+.flx-chh-rr img {
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .flx-pl2 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .flx-pl2-cnt {
+        width: 15rem;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width: 550px) {
+    .flx-pl2-cnt {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
